@@ -10,34 +10,33 @@
                 /* font-family: Nunito, sans-serif; */
                 font-family: Garamond, serif;
             }
-            .navigation {
-                position: absolute; 
-                margin-top: 20px;
-                margin-left:5%;
+            .navigation{
+                display: block;
                 width: auto;
-                
-            }
-            .topnav {
-                overflow: hidden;
+                height: auto;
                 background-color:#34533d;
-                padding-top: 2%;
-                padding-bottom: 2%;
-                font-size: 17px;
-                font-size: 20px;
+                overflow: hidden;
+                font-variant: small-caps;
+                margin-top:6px;
+                margin-left:1%;
                 
-            }
+                }
             a{
                 color: #ffff;
                 text-decoration: none;
             }
             table{
-                border:2px solid black;
+                border:3px solid black;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+                min-width: 1300px;
                 border-collapse:collapse;
+                
             }
             th,td{
                 text-align: center;
-                border:1px solid black; 
+                border:3px solid black; 
             }
+    
             .container {
                     width: 100%;
                     background-color: #ddd; 
@@ -83,7 +82,7 @@
         </style>
     </head>
 
-    <body bgcolor="#dbffdc">
+    <body bgcolor="#dbffdc" style="color:#2a2725">
        
         <div class="navigation">
             <div class="topnav">
@@ -94,17 +93,17 @@
             </div>
         </div>
         
-        <center><h1>Resume</h1></center>
+        <center><h1>Qualifications</h1></center>
         <h2>Education Qualification:</h2>
         <table style="width:900px" height="300px">
-            <tr>
-                <th>Examination</th>
+            <tr style="background-color: #009879;text-align:left; color: black;" >
+                <th height="60">Examination</th>
                 <th>Board</th>
                 <th>Year</th>
                 <th>Percentage</th>
             </tr>
 
-            <tr>
+            <tr style="color: black;">
                 <td>Bachelor of technology</td>
                 <td>St. Martins Engineering College</td>
                 <td>2015-2019</td>
@@ -127,22 +126,22 @@
         </table>
 
         <h2>My Skills:</h2>
-        <p>Java</p>
+        <p><b>Java</b></p>
         <div class="indicator">
             <div class="skillsJava">90%</div>
         </div>
 
-        <p>HTML</p>
+        <p><b>HTML</b></p>
         <div class="indicator">
             <div class="skillsHTML">70%</div>
         </div>
 
-        <p>Python</p>
+        <p><b>Python</b></p>
         <div class="indicator">
             <div class="skillsPython">95%</div>
         </div>
 
-        <p>SQL</p>
+        <p><b>SQL</b></p>
         <div class="indicator">
             <div class="skillsSql">80%</div>
         </div>
