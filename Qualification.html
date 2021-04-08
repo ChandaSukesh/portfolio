@@ -3,6 +3,14 @@
     <head>
         <title>Qualification</title>
         <link rel="shortcut icon" href="https://www.flaticon.com/svg/vstatic/svg/3985/3985119.svg?token=exp=1617635883~hmac=7ba6b059e01fc3ce1afdd1ec6d6b7ced">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script> -->
+
+        <link rel="stylesheet" href="style.css">
+
         <style>
             body{
                 font-size: 20px;
@@ -10,17 +18,15 @@
                 /* font-family: Nunito, sans-serif; */
                 font-family: Garamond, serif;
             }
-            .navigation{
-                display: block;
-                width: auto;
-                height: auto;
+            /* .navigation{
                 background-color:#34533d;
-                overflow: hidden;
-                font-variant: small-caps;
-                margin-top:6px;
-                /* margin-left:1%;  */
                 padding-left: 13px;
-                }
+            } */
+           
+            ul.nav a:hover {
+            color:yellow !important; 
+            }
+
             a{
                 color: #ffff;
                 text-decoration: none;
@@ -28,15 +34,23 @@
             table{
                 border:3px solid black;
                 box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-                min-width: 1300px;
                 border-collapse:collapse;
-                
             }
             th,td{
                 text-align: center;
                 border:3px solid black; 
             }
-    
+            
+            tr:nth-child(even) {
+            background-color: #ebe5e5;
+            font-size: 20px;
+        }
+        /* tr:nth-child(odd) {
+            background-color: rgb(36, 32, 32);
+            font-size: 20px;
+        } */
+
+
             .container {
                     width: 100%;
                     background-color: #ddd; 
@@ -82,20 +96,30 @@
         </style>
     </head>
 
-    <body bgcolor="#dbffdc" style="color:#2a2725;padding-left: 13px;">
-       
-        <div class="navigation">
-            <div class="topnav">
-                <a href="About Me.html">Home</a> |
-                <a href="Qualification.html">Qualifications</a> |
-                <a href="Projects.html">Projects</a> |
-                <a href="Contacts.html">Contact</a>
-            </div>
+    <body bgcolor="#dbffdc" style="color:#2a2725;padding-left: 30px;padding-right: 30px;">
+           
+        <div id="navigation"> 
+            <nav>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                    <a class="nav-link " href="About Me.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="Qualification.html">Qualifications</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="Projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="Contacts.html">Contact</a>
+                    </li>
+                </ul>
+            </nav> 
         </div>
         
         <center><h1>Qualifications</h1></center>
         <h2>Education Qualification:</h2>
-        <table style="width:900px" height="300px">
+        <!-- <table class="container">
             <tr style="background-color: #009879;text-align:left; color: black;" >
                 <th height="60">Examination</th>
                 <th>Board</th>
@@ -123,7 +147,38 @@
                 <td>2013</td>
                 <td>87</td>
             </tr>
-        </table>
+        </table> -->
+
+        <table class="table">
+            <thead>
+              <tr style="background-color: #009879;text-align:left; color: black;">
+                <th scope="col">Examination</th>
+                <th scope="col">Board</th>
+                <th scope="col">Year</th>
+                <th scope="col">Percentage</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Bachelor of technology</th>
+                <td>St. Martins Engineering College</td>
+                <td>2015-2019</td>
+                <td>72</td>
+              </tr>
+              <tr>
+                <td>Intermediate</th>
+                <td>I-class CDR Junior College</td>
+                <td>2015</td>
+                <td>90</td>
+              </tr>
+              <tr>
+                <td>S.S.C</th>
+                <td>St Marks Progressive School</td>
+                <td>2013</td>
+                <td>87</td>
+              </tr>
+            </tbody>
+          </table>
 
         <h2>My Skills:</h2>
         <p><b>Java</b></p>

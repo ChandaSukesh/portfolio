@@ -1,0 +1,14 @@
+body{
+    font-size: 20px ;
+    line-height: 1.6 ;
+    background-color: #dbffdc ;
+    font-family: Garamond, serif ;
+    padding-left: 13px;
+}
+
+#navigation{
+    background-color:#34533d;
+    padding-left: 13px;
+    margin-top: 10px;
+}
+
