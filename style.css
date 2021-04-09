@@ -4,6 +4,7 @@ body{
     background-color: #dbffdc ;
     font-family: Garamond, serif ;
     padding-left: 13px;
+    ;
 }
 
 #navigation{
@@ -12,3 +13,16 @@ body{
     margin-top: 10px;
 }
 
+ul.nav a:hover {
+    color:yellow !important; 
+    }
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+#imagestyle {
+    border: 5px solid #555;
+    
+}
